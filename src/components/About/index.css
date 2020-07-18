@@ -1,0 +1,9 @@
+.links * {
+  color: #e4e3e3;
+  font-size: 2rem;
+  padding-right: .5rem;
+}
+
+.copyright {
+  font-size: 1rem;
+}

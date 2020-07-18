@@ -1,0 +1,60 @@
+.app {
+  background-image:
+  linear-gradient(45deg, rgba(32, 64, 81, 0.8) 0%, rgba(71, 36, 67, 0.8) 100%),
+  url('../../images/AlbertaMural.jpg');
+  width: 100vw;
+  background-size: cover;
+  background-position: center center;
+  display: grid;
+  align-items: center;
+}
+
+h2 {
+  font-family: Roboto;
+  color: #e4e3e3;
+  font-size: 2.25rem;
+}
+
+p {
+  font-size: 1.25rem;
+  font-family: Open Sans;
+  color: #cdcccc;
+}
+
+hr {
+  opacity: .5;
+}
+
+@media screen and (min-width: 1025px) {
+  .app {
+    grid-template-columns: 60% 30% 10%;
+    grid-template-rows: 1fr 2rem;
+    height: 100vh;
+  }
+
+  .main {
+    grid-row: 1;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .app {
+    min-height: 100vh;
+    grid-template-rows: 4.5rem 1fr 2.5rem;
+  }
+
+  .main {
+    grid-row: 2;
+  }
+}
+
+.main {
+  margin: 0 40px;
+  grid-column: 1;
+}
+
+.copyright {
+  font-size: .75rem;
+  grid-column: 1 / -1;
+  text-align: center;
+}
