@@ -14,19 +14,39 @@ const About = () => (
       I'm not coding, you'll find me in my sewing studio or garden.
     </p>
     <div className='links'>
-      <a href='https://www.linkedin.com/in/nicole-ampersand/'>
+      <a 
+        href='https://www.linkedin.com/in/nicole-ampersand/'
+        target="_blank"
+        rel="noopener noreferrer"
+      >
       <i className="fab fa-linkedin"></i>
       </a>
-      <a href='https://github.com/nmampersand'>
+      <a 
+        href='https://github.com/nmampersand'
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <i className="fab fa-github"></i>
       </a>
-      <a href='https://www.instagram.com/nicoleampersand/'>
+      <a 
+        href='https://www.instagram.com/nicoleampersand/'
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <i className="fab fa-instagram"></i>
       </a>
-      <a href='https://dev.to/nmampersand'>
+      <a
+        href='https://dev.to/nmampersand'
+        target="_blank"
+        rel="noopener noreferrer"
+      >
       <i className="fab fa-dev"></i>
       </a>
-      <a href='https://stackoverflow.com/users/13945626/nicole-ampersand'>
+      <a 
+        href='https://stackoverflow.com/users/13945626/nicole-ampersand'
+        target="_blank"
+        rel="noopener noreferrer"
+      >
       <i className="fab fa-stack-overflow"></i>
       </a>
     </div>
