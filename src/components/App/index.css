@@ -57,4 +57,5 @@ hr {
   font-size: .75rem;
   grid-column: 1 / -1;
   text-align: center;
+  grid-row: -1;
 }
